@@ -2,7 +2,7 @@
 
 export default function IOSDownload() {
     const downloadIPA = () => {
-        window.location.href = "itms-services://?action=download-manifest&url=https://capstone24.sit.kmutt.ac.th/sy1/downloads/Memo.plist";
+        window.location.href = "itms-services://?action=download-manifest&url=https://capstone24.sit.kmutt.ac.th//sy1/sideload/downloads/Memo.plist";
     }
 
     return (
