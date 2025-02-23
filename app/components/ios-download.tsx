@@ -5,7 +5,7 @@ export default function IOSDownload() {
         window.location.href = "itms-services://?action=download-manifest&url=https://capstone24.sit.kmutt.ac.th/sy1/sideload/downloads/Memo.plist";
     }
     const installConfig = () => {
-        window.location.href = "https://capstone24.sit.kmutt.ac.th/sy1/sideload/api/mobileconfig";
+        window.location.href = "https://capstone24.sit.kmutt.ac.th/sy1/sideload/downloads/Memo.mobileconfig";
     }
 
     return (
