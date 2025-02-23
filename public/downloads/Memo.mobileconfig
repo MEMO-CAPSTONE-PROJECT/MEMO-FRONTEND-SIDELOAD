@@ -4,32 +4,29 @@
   <dict>
     <key>PayloadContent</key>
     <array>
-      <!-- Install Certificate -->
       <dict>
-        <key>PayloadType</key>
-        <string>com.apple.security.root</string>
-        <key>PayloadVersion</key>
-        <integer>1</integer>
+        <key>PayloadDisplayName</key>
+        <string>Memo App</string>
         <key>PayloadIdentifier</key>
-        <string>com.capstone.memo.cert</string>
+        <string>com.capstone.memo.install</string>
+        <key>PayloadType</key>
+        <string>com.apple.application-identifier</string>
         <key>PayloadUUID</key>
         <string>e6a7d270-6e3f-4992-b472-245e3827cdf5</string>
-        <key>PayloadDisplayName</key>
-        <string>Memo App Certificate</string>
-        <key>PayloadDescription</key>
-        <string>This profile installs the Memo App's SSL certificate to allow secure connections.</string>
-        <key>PayloadOrganization</key>
-        <string>Capstone Memo</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>URL</key>
+        <string>https://yourserver.com/path/to/your-app.ipa</string>
       </dict>
     </array>
     <key>PayloadDisplayName</key>
-    <string>Memo Configuration Profile</string>
+    <string>Memo App Installation Profile</string>
     <key>PayloadIdentifier</key>
-    <string>com.capstone.memo</string>
+    <string>com.capstone.memo.config</string>
     <key>PayloadType</key>
     <string>Configuration</string>
     <key>PayloadUUID</key>
-    <string>e2ce0ca5-2f40-4b7a-a2e9-821c58fdbc2c</string>
+    <string>f27c8c6b-45d1-4b73-8b9d-faf8f68cbfea</string>
     <key>PayloadVersion</key>
     <integer>1</integer>
   </dict>
