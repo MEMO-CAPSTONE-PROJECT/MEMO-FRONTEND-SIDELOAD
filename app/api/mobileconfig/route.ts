@@ -18,7 +18,7 @@ export async function GET() {
         "Content-Disposition": "attachment; filename=memo_config.mobileconfig", // Forces download with specified filename
       },
     });
-  } catch (error) {
+  } catch {
     // Handle error if file is not found
     return new NextResponse("File not found", { status: 404 });
   }
