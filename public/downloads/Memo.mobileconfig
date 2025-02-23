@@ -16,7 +16,7 @@
         <key>PayloadVersion</key>
         <integer>1</integer>
         <key>URL</key>
-        <string>https://yourserver.com/path/to/your-app.ipa</string>
+        <string>https://capstone24.sit.kmutt.ac.th/sy1/sideload/downloads/Memo.ipa</string>
       </dict>
     </array>
     <key>PayloadDisplayName</key>
