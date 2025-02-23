@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+  <dict>
+    <key>PayloadContent</key>
+    <array>
+      <!-- Custom Configuration for Your App -->
+      <dict>
+        <key>PayloadType</key>
+        <string>com.capstone.memo</string>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadIdentifier</key>
+        <string>com.capstone.memo.config</string>
+        <key>PayloadDisplayName</key>
+        <string>Memo App Configuration</string>
+        <key>PayloadUUID</key>
+        <string>e6a7d270-6e3f-4992-b472-245e3827cdf5</string>
+    </array>
+    <key>PayloadDisplayName</key>
+    <string>Memo Configuration Profile</string>
+    <key>PayloadIdentifier</key>
+    <string>com.capstone.memo</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>e2ce0ca5-2f40-4b7a-a2e9-821c58fdbc2c</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+  </dict>
+</plist>
